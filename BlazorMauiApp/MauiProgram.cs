@@ -1,5 +1,5 @@
-﻿using BlazorShared.Data;
-using Microsoft.AspNetCore.Components.WebView.Maui;
+﻿using BlazorShared;
+using BlazorShared.Data;
 
 namespace BlazorMauiApp;
 public static class MauiProgram
@@ -20,6 +20,7 @@ public static class MauiProgram
 #endif
 
         builder.Services.AddSingleton<WeatherForecastService>();
+        builder.Services.AddSingleton<IPlatformNameProvider, PlatformNameProvider>();
 
         return builder.Build();
     }

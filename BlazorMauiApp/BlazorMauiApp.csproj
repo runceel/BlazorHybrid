@@ -53,4 +53,10 @@
       <ProjectReference Include="..\BlazorShared\BlazorShared.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Update="Platforms\iOS\PlatformNameProvider.cs">
+        <ExcludeFromCurrentConfiguration>false</ExcludeFromCurrentConfiguration>
+      </Compile>
+    </ItemGroup>
+
 </Project>
