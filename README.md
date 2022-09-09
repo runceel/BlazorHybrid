@@ -13,4 +13,4 @@ Build Blazor Server, Blazor WASM and MAUI Blazor App by a single source code bas
 - BlazorShared
   - All razor components and shared C# code files
   
- !()[images/app.jfif]
+ ![](images/app.jfif)
